@@ -1,6 +1,6 @@
 # About
 
-This is a bash script to format and append LICENSE into your Python source files.
+This is a simple bash script to format and append your LICENSE file into the header of your Python project's source files.
 
 ## Details
 
