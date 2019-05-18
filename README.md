@@ -7,7 +7,7 @@ This is a simple bash script to format and append your LICENSE file into the hea
 The [licenseAppender](./licenseAppender.sh) script will append whatever is in LICENSE into all Python files
 within the project directory the script is run in.
 
-This will affect all Python files in all folders below the script. So if you wish to prevent it from running in some files, run it inside the folder and files above it will be preserved.
+This will affect all Python files in all folders below the script. If you wish to prevent it from running in some files, run it inside the folder with the desired files, and so files above it will be preserved.
 
 If you mess up, run [purgeUndo.sh](./purgeUndo.sh) and it will delete the LICENSE you just smeared all over your repo.
 
