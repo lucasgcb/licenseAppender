@@ -4,7 +4,7 @@ This is a simple bash script to format and prepend your LICENSE file into the he
 
 ## Details
 
-The [licensePrepender](./licensePrepender.sh) script will licensePrepender whatever is in LICENSE into all Python files
+The [licensePrepender](./licensePrepender.sh) script will prepend whatever is in LICENSE into all Python files
 within the project directory the script is run in.
 
 This will affect all Python files in all folders below the script. If you wish to prevent it from running in some files, run it inside the folder with the desired files, and so files above it will be preserved.
