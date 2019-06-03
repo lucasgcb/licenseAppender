@@ -1,7 +1,7 @@
 #!/bin/bash
 <<COMMENT
    This will take the contents of LICENSE (no extension),
-   Make a copy with Python comment prefix and append it 
+   Make a copy with Python comment prefix and add it 
    to the top of EVERY .py file regardless of path depth.
 COMMENT
 LICENSE=$(cat LICENSE); 
